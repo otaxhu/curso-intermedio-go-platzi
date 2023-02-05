@@ -13,9 +13,14 @@ func main() {
 
 	fmt.Println(ftEmployee)
 
-	ftEmployee2 := NewFullTimeEmployee("pepito", 14, 7)
+	//ftEmployee2 := NewFullTimeEmployee("pepito", 14, 7)
 
-	fmt.Println(*ftEmployee2)
+	//fmt.Println(*ftEmployee2)
 
-	fmt.Println(ftEmployee2.age)
+	//fmt.Println(ftEmployee2.age)
+
+	tEmployee := TemporaryEmployee{}
+
+	getMessage(tEmployee)
+	getMessage(ftEmployee)
 }
